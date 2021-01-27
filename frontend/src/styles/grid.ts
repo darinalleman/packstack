@@ -27,7 +27,7 @@ export const inlineStyles: CSSProperties = {
 
 export const PackItemGrid = styled.div`
   display: grid;
-  grid-template-columns: 180px minmax(200px, auto) 80px 40px 70px 30px;
+  grid-template-columns: 180px minmax(200px, auto) 70px 80px 40px 70px 30px;
   grid-template-rows: auto;
   grid-column-gap: 16px;
   align-items: center;

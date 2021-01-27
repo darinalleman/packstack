@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 export const ItemRow = styled.div`
-  padding-bottom: 8px;
-  margin: 8px 0;
   border-bottom: 1px dashed ${props => props.theme.color.$GrayBorder};
   
   .remove-item {

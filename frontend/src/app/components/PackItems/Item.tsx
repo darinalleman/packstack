@@ -29,12 +29,14 @@ const Item: React.FC<ItemProps> = ({ item, removeItem, updateItem }) => {
             <PackItemGrid>
                 <div>
                     <strong>{item.name}</strong>
-                    <a onClick={() => setDisplayNotes(!displayNotes)} className="add-notes">
-                        {notesLabel()}
-                    </a>
                 </div>
                 <div>
                     {item.product_name}
+                </div>
+                <div>
+                    <a onClick={() => setDisplayNotes(!displayNotes)} className="add-notes">
+                        {notesLabel()}
+                    </a>
                 </div>
                 <div className="align-right">
                     {item.weight} {item.weight_unit}

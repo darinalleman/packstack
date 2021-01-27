@@ -165,7 +165,7 @@ const PackForm: React.FC<PackFormSpecs.Props> = ({ history, packId, getPack, exp
                                 </Controls>
                             </PageTitle>
 
-                            <Box style={{ marginBottom: '16px' }}>
+                            <Box style={{ marginBottom: '8px' }}>
                                 <Grid>
                                     <div className="two-thirds">
                                         <Input label="Location / Trail"
